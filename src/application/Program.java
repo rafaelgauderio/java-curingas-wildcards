@@ -9,7 +9,8 @@ public class Program {
 		
 		System.out.println("\nGenerics são invariantes.\n"
 				+ "List<Object> não é um supertipo de qualquer tipo de lista.\n"
-				+ "List<?> é o supertipo de qualquet tipo de List. Funciona como um tipo curinga.\n");
+				+ "List<?> é o supertipo de qualquet tipo de List. Funciona como um tipo curinga.\n"
+				+ "Com tipos curinga é possível fazer métodos que recebem um genérico de qualquer tipo.\n");
 		
 		List<Object> listOfObjects = new ArrayList<Object>();
 		List<Integer> listOfInteger = new ArrayList<Integer>(); // Integer é um subtipo de Object
